@@ -1,0 +1,137 @@
+:root {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1em;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(231, 231, 231);
+}
+
+label {
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    /* font-size: 1.1rem; */
+    font-size: min(15px);
+}
+
+input {
+    width: clamp(100px,10%,200px); 
+}
+
+input[type=text]:focus {
+    border: 2px solid #4834ff;
+    box-shadow: 2px 2px rgb(214, 214, 214);
+    outline: none
+  }
+
+.main-container {
+    height: 100vh;
+    width: 100wh;
+    display: flex;
+    flex: 1;
+}
+
+.aki-image {
+    object-fit: contain;
+    height: 100vh;
+    
+}
+
+.container-background-image{
+    display: flex;
+    /* background-color: red; */
+}
+
+.nasfaq-container {
+    position: absolute;
+    top: 550px;
+    width: 300px;
+    height: 75px;
+    background-color: rgba(78, 100, 175, 0.5);
+    object-fit: contain;
+}
+
+.nasfaq-image {
+    width: 100%;
+    height: 100%;
+}
+
+.image-containers-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Second half of the document */
+
+.second-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.intro-text {
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin: 3rem;
+}
+
+#sign-up-intro-text {
+    line-height: 0.2px;
+}
+
+#emphasis-intro-text {
+    line-height: 4rem;
+}
+
+.white-area-container {
+    background-color: white;
+    padding: 20px;
+    height: 300px;
+    flex-grow: 1;
+    box-shadow: 3px 3px rgb(122, 121, 121, 0.2);
+}
+
+.white-area-intro {
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+.flex-form-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 50px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.button-log-in-check{
+    margin: 20px;
+}
+
+.submit-button {
+    background-color: rgb(240, 80, 80);
+    color: white;
+    box-shadow: 2px 2px rgba(182, 182, 182, 0.8);
+    font-weight: 700;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: none;
+    margin: 30px 20px 0px;
+    padding: 10px 40px;
+}
+
+.existing-account {
+    margin: 30px 20px 0px;
+}
+
+.log-in-link {
+    color: rgb(240, 80, 80);
+}
