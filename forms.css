@@ -23,7 +23,15 @@ input[type=text]:focus {
     border: 2px solid #4834ff;
     box-shadow: 2px 2px rgb(214, 214, 214);
     outline: none
-  }
+}
+
+input:invalid {
+    border: 2px solid #ff3434;
+}
+
+input:valid {
+    border: 2px solid #41aa58;
+}
 
 .main-container {
     height: 100vh;
